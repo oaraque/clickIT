@@ -1,5 +1,15 @@
 # ClickBaIT Dataset
-Repository for the CLiC-it 2024 paper *"To Click it or not to Click it: An Italian Dataset for Neutralising Clickbait Headlines"*
+
+<p>
+    <img src="img/clicit_logo.png" width="30%" align="left">
+    <br>
+    Welcome to the <b>ClickBaIT</b> dataset repository! ClickBaIT is a comprehensive resource for NLP tasks related to clickbait, such as <i>clickbait detection</i>, <i>spoiler generation</i>, and our newly introduced task, <i>clickbait neutralisation</i>. 
+    The ClickBaIT dataset was presented in the paper <a href="https://aclanthology.org/2024.clicit-1.90/" target="_blank">To Click it or not to Click it: An Italian Dataset for Neutralising Clickbait Headlines</a> at the <i>CLiC-it 2024</i> conference in Pisa, Italy.
+    <br><br>
+    🏆 This paper, authored by <i>Daniel Russo</i>, <i>Oscar Araque</i>, and <i>Marco Guerini</i>, was honored with the <b>CLiC-it Best Student Paper Award</b>.
+    <br><br>
+    If you use the ClickBaIT datasets or any of its components in your work, we kindly request that you <a href="https://github.com/oaraque/ClickBaIT/blob/main/README.md#citation">cite</a> our original paper.
+</p>
 
 # Dataset
 
@@ -73,9 +83,32 @@ print(formatted_instruction)
 ```
 
 # Citation
+If you use the ClickBaIT dataset in your research, please cite the following paper:
 
-If you use this data, please cite the following work.
+```bibtex
+@inproceedings{russo-etal-2024-click,
+    title = "To Click It or Not to Click It: An {I}talian Dataset for Neutralising Clickbait Headlines",
+    author = "Russo, Daniel  and
+      Araque, Oscar  and
+      Guerini, Marco",
+    editor = "Dell'Orletta, Felice  and
+      Lenci, Alessandro  and
+      Montemagni, Simonetta  and
+      Sprugnoli, Rachele",
+    booktitle = "Proceedings of the Tenth Italian Conference on Computational Linguistics (CLiC-it 2024)",
+    month = dec,
+    year = "2024",
+    address = "Pisa, Italy",
+    publisher = "CEUR Workshop Proceedings",
+    url = "https://aclanthology.org/2024.clicit-1.90/",
+    pages = "829--841",
+    ISBN = "979-12-210-7060-6"
+}
+```
 
-```
-TODO: ADD
-```
+## License
+ClickBaIT can be used for research purposes and cannot be redistributed. Please cite the corresponding publication if you use it.
+
+---
+
+**For any questions or inquiries, don't hesitate to get in touch with drusso@fbk.eu**
